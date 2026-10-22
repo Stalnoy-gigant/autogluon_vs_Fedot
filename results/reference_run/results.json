@@ -1,0 +1,15 @@
+{
+  "time_limit": 120,
+  "seed": 42,
+  "note": "Значения сняты с графика comparison_results.png (округление до 3 знаков, время до секунд); R2 в этом прогоне не сохранялся.",
+  "results": {
+    "classification": {
+      "autogluon": {"accuracy": 0.956, "f1": 0.966, "roc_auc": 0.994, "time": 8},
+      "fedot": {"accuracy": 0.956, "f1": 0.966, "roc_auc": 0.995, "time": 123}
+    },
+    "regression": {
+      "autogluon": {"mae": 0.275, "rmse": 0.428, "time": 121},
+      "fedot": {"mae": 0.533, "rmse": 0.745, "time": 120}
+    }
+  }
+}
